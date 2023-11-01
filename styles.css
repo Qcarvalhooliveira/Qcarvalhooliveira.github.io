@@ -67,6 +67,12 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    transition: background-color 0.3s; 
+}
+
+ a:hover {
+    background-color: #f650b6; 
+
 }
 
 .button {
@@ -79,7 +85,13 @@ nav ul li a {
     padding: 10px 20px;
     margin: 20px auto;
     text-decoration: none;
+
 }
+button:hover {
+
+       background-color: #b3287e; 
+    
+    }
 
 /* Seção de Recursos */
 #features {
